@@ -1,12 +1,24 @@
-
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Beleza & Estética Premium | Andrey Bacelar</title>
 <meta name="description" content="Seleção premium de produtos de beleza, estética e moda recomendados por Andrey Bacelar.">
+
 <link rel="canonical" href="https://andreybacelar016.github.io/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Beleza & Estética Premium | Andrey Bacelar">
+<meta property="og:description" content="Produtos selecionados com foco em qualidade, estética e confiança.">
+<meta property="og:url" content="https://andreybacelar016.github.io/">
+<meta property="og:type" content="website">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 
 <style>
 body{
@@ -20,9 +32,18 @@ header{
     text-align:center;
 }
 h1{
-    font-family:Playfair Display,serif;
+    font-family:'Playfair Display',serif;
     color:#8b4c5c;
     font-size:3rem;
+}
+nav{
+    margin-top:30px;
+}
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#8b4c5c;
+    font-weight:600;
 }
 .category-grid{
     max-width:1000px;
@@ -40,6 +61,7 @@ h1{
     text-align:center;
     text-decoration:none;
     color:#2c2c2c;
+    transition:transform .3s ease;
 }
 .category-card:hover{
     transform:translateY(-5px);
@@ -56,16 +78,13 @@ footer{
 <body>
 <header>
     <h1>Beleza & Estética Premium</h1>
-    <p>Produtos selecionados com foco em qualidade, estética e confiança.</p>
+    <p>Produtos selecionados com foco em estética, qualidade e confiança.</p>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="moda.html">Moda</a>
+        <a href="maquiagem.html">Maquiagem</a>
+    </nav>
 </header>
 
 <main class="category-grid">
-    <a class="category-card" href="moda.html">👕 Moda Masculina</a>
-    <a class="category-card" href="maquiagem.html">💄 Maquiagem</a>
-</main>
-
-<footer>
-    <p>© 2025 — Andrey Bacelar</p>
-</footer>
-</body>
-</html>
+    <a class="category-card" href="moda.html">👕
