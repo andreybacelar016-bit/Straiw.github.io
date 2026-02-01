@@ -1,19 +1,9 @@
-# Robots.txt para Site de Beleza e Estética
-# Otimizado para SEO - Andrey Bacelar
+# robots.txt
+# Site: andreybacelar016.github.io
+# Autor: Andrey Bacelar
 
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://andreybacelar016.github.io/sitemap.xml
 
-# Crawl-delay (evita sobrecarga)
-Crawl-delay: 1
-
-# Permitir rastreamento de imagens
-User-agent: Googlebot-Image
-Allow: /
-
-# Otimização para Mobile
-User-agent: Googlebot-Mobile
-Allow: /
