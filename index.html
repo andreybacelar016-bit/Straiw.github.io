@@ -1,58 +1,177 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Straw — Estética, Identidade e Versatilidade</title>
 
-<title>Beleza & Estética Premium | Andrey Bacelar</title>
-<meta name="description" content="Curadoria premium de produtos de moda e maquiagem com links confiáveis.">
+  <meta name="description" content="Straw é uma marca em construção que une estética, identidade e versatilidade, puxando culturas, símbolos e novos mundos através da moda.">
 
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://andreybacelar016.github.io/">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Georgia, 'Times New Roman', serif;
+    }
 
-<!-- Open Graph -->
-<meta property="og:title" content="Beleza & Estética Premium | Andrey Bacelar">
-<meta property="og:description" content="Produtos selecionados com foco em estética, qualidade e confiança.">
-<meta property="og:url" content="https://andreybacelar016.github.io/">
-<meta property="og:type" content="website">
+    body {
+      min-height: 100vh;
+      background-image: url('https://audaces.com/wp-content/uploads/2022/03/estilos-de-moda.webp');
+      background-size: cover;
+      background-position: center;
+      color: #f1f1f1;
+      position: relative;
+    }
 
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(6px);
+      z-index: 0;
+    }
 
-<style>
-body{margin:0;font-family:Montserrat,Arial,sans-serif;background:#fff8f3;color:#2c2c2c}
-header{text-align:center;padding:70px 20px}
-h1{font-family:'Playfair Display',serif;color:#8b4c5c;font-size:3rem}
-nav a{margin:0 15px;text-decoration:none;color:#8b4c5c;font-weight:600}
-.category-grid{max-width:1000px;margin:60px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px;padding:0 20px}
-.category-card{background:#fff;padding:50px 30px;border-radius:20px;box-shadow:0 10px 40px rgba(0,0,0,.1);text-align:center;text-decoration:none;color:#2c2c2c;transition:transform .3s ease}
-.category-card:hover{transform:translateY(-5px)}
-footer{text-align:center;padding:40px;background:#8b4c5c;color:#fff}
-footer p{font-size:.9rem;opacity:.85}
-</style>
+    main {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      padding: 80px 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    header p {
+      max-width: 800px;
+      margin-top: 25px;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #d8d8d8;
+    }
+
+    .manifesto {
+      margin-top: 80px;
+      max-width: 850px;
+    }
+
+    .manifesto h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .manifesto p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #cfcfcf;
+      margin-bottom: 18px;
+    }
+
+    .actions {
+      margin-top: 60px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .actions a {
+      text-decoration: none;
+      padding: 14px 28px;
+      border: 1px solid #f1f1f1;
+      color: #f1f1f1;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.85rem;
+      transition: 0.3s;
+    }
+
+    .actions a:hover {
+      background: #f1f1f1;
+      color: #000;
+    }
+
+    footer {
+      margin-top: 120px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: #a5a5a5;
+      border-top: 1px solid rgba(255,255,255,0.2);
+      padding-top: 25px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    footer a {
+      color: #a5a5a5;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.6rem;
+      }
+
+      main {
+        padding: 60px 7%;
+      }
+    }
+  </style>
 </head>
 
 <body>
-<header>
-<h1>Beleza & Estética Premium</h1>
-<p>Produtos selecionados com foco em qualidade, estética e confiança.</p>
-<nav>
-<a href="index.html">Início</a>
-<a href="moda.html">Moda</a>
-<a href="maquiagem.html">Maquiagem</a>
-</nav>
-</header>
+  <main>
 
-<main class="category-grid">
-<a class="category-card" href="moda.html">👕 Moda Masculina</a>
-<a class="category-card" href="maquiagem.html">💄 Maquiagem</a>
-</main>
+    <header>
+      <h1>Straw</h1>
+      <p>
+        Ostentação pode ser a palavra-chave para a maioria daqueles que buscam a moda,
+        mas não é desse propósito que persiste essa marca. Straw traz uma identidade
+        e versatilidade, a união da estética personalizada e simbólica, puxando as culturas,
+        trazendo novos mundos e o nome de uma marca.
+      </p>
+    </header>
 
-<footer>
-<p>Este site participa de programas de afiliados. Podemos receber comissão sem custo adicional para você.</p>
-<p>© 2025 — Andrey Bacelar</p>
-</footer>
+    <section class="manifesto">
+      <h2>Identidade</h2>
+      <p>
+        Straw nasce da necessidade de expressão. Não como tendência passageira,
+        mas como construção estética. Cada peça, cada escolha e cada referência
+        carrega símbolos, histórias e fragmentos culturais.
+      </p>
+      <p>
+        Aqui, moda não é excesso. É significado. É linguagem visual. É presença.
+      </p>
+    </section>
+
+    <section class="actions">
+      <a href="moda.html">Explorar Moda</a>
+      <a href="maquiagem.html">Explorar Maquiagem</a>
+    </section>
+
+    <footer>
+      <span>© 2026 — Straw</span>
+      <span>
+        <a href="privacidade.html">Política de Privacidade</a> •
+        <a href="termos.html">Termos de Uso</a> •
+        Versão Beta
+      </span>
+    </footer>
+
+  </main>
 </body>
 </html>
