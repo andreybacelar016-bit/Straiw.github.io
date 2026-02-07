@@ -1,0 +1,12 @@
+# robots.txt para andreybacelar016.github.io
+# Otimizado para SEO e indexação do Google
+
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+
+# Bloquear apenas arquivos desnecessários
+Disallow: /README.md
+
+# Sitemap
+Sitemap: https://andreybacelar016.github.io/sitemap.xml
