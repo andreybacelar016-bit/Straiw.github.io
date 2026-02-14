@@ -1,4 +1,4 @@
-# robots.txt para https://andreybacelar016-bit.github.io/Straiw.github.io/
+# robots.txt para andreybacelar016-bit.github.io/Straiw.github.io/
 # Otimizado para SEO e indexação do Google
 
 User-agent: *
