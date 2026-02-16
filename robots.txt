@@ -9,4 +9,4 @@ Allow: /sitemap.xml
 Disallow: /README.md
 
 # Sitemap
-Sitemap: https://andreybacelar016-bit.github.io/Straiw.github.io/sitemap.xml
+Sitemap: https://straiw.github.io/sitemap.xml
